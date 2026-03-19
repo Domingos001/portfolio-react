@@ -79,7 +79,7 @@ export default function Hero() {
           <div className="flex gap-6 justify-center md:justify-start">
 
             <a
-              href="/assets/Pedro CV DEV.pdf"
+              href="/curriculo/Pedro CV DEV.pdf"
               download
               className="px-8 py-4 rounded-xl font-semibold text-lg
               bg-blueAccent text-white
