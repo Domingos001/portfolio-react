@@ -9,10 +9,8 @@ export default function Contato() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: false }}
-      // AQUI ESTÃO AS CORREÇÕES: min-h-screen, scroll-mt-24, flex e items-center
       className="py-28 min-h-screen scroll-mt-24 flex items-center"
     >
-      {/* ADICIONADO: w-full para o conteúdo não encolher com o flex */}
       <div className="max-w-4xl mx-auto px-6 w-full">
         
         {/* REDES SOCIAIS */}
@@ -89,7 +87,6 @@ export default function Contato() {
             {/* BOTÃO */}
             <button
               type="submit"
-              // ADICIONADO: text-white para garantir leitura
               className="w-full bg-purpleAccent py-4 rounded-lg font-semibold text-white
                         shadow-[0_0_20px_rgba(138,43,226,0.6)]
                         hover:shadow-[0_0_40px_rgba(138,43,226,1)]

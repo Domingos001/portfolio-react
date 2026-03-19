@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 export default function Hero() {
   const texts = [
     "Desenvolvedor em formação",
-    "Focado em soluções modernas",
-    "Experiência e performance"
+    "Engenheiro de  Software",
+    "Analise e  Desenvolvimento"
   ]
 
   const [textIndex, setTextIndex] = useState(0)
