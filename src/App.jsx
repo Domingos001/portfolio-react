@@ -11,13 +11,14 @@ import Background from "./components/Background"
 
 import Certificados from "./pages/Certificados"
 
+//  TRACKING GOOGLE ANALYTICS
 function AnalyticsTracker() {
   const location = useLocation()
 
   useEffect(() => {
     if (window.gtag) {
       window.gtag("config", "G-KWX7286594", {
-        page_path: location.pathname,
+        page_path: location.pathname + location.hash,
       })
     }
   }, [location])
@@ -25,6 +26,7 @@ function AnalyticsTracker() {
   return null
 }
 
+//  HOME
 function Home() {
   return (
     <>
@@ -36,6 +38,7 @@ function Home() {
   )
 }
 
+//  APP
 function App() {
   return (
     <HashRouter>
@@ -44,16 +47,16 @@ function App() {
 
       <div className="min-h-screen text-white relative bg-[#0f172a] overflow-hidden">
 
-        {/* FUNDO */}
+        {/*  FUNDO ANIMADO */}
         <Background />
 
-        {/* DEGRADÊ */}
-        <div className="fixed inset-0 z-0 pointer-events-none
-          bg-[radial-gradient(circle_at_top_left,rgba(138,43,226,0.3),transparent_40%),
-              radial-gradient(circle_at_bottom_right,rgba(70,130,180,0.3),transparent_40%)]">
+        {/*  DEGRADÊ */}
+        <div className="fixed inset-0 -z-10 pointer-events-none
+          bg-[radial-gradient(circle_at_top_left,rgba(138,43,226,0.35),transparent_45%),
+              radial-gradient(circle_at_bottom_right,rgba(70,130,180,0.35),transparent_45%)]">
         </div>
 
-        {/* CONTEÚDO */}
+        {/*  CONTEÚDO */}
         <div className="relative z-10">
 
           <Navbar />
