@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom"
 import { useEffect } from "react"
 
 import Navbar from "./components/Navbar"
@@ -38,7 +38,7 @@ function Home() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <AnalyticsTracker />
 
@@ -73,7 +73,7 @@ function App() {
 
       </div>
 
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
