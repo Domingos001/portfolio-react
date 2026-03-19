@@ -58,7 +58,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href="#contato"
+            href="/#contato"
             className="relative group text-textLight"
           >
             Contato
