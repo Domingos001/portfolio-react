@@ -49,9 +49,9 @@ export default function Hero() {
     {/* FOTO GIRANDO AO CONTRÁRIO */}
     <div className="w-full h-full rounded-full overflow-hidden bg-[#0f172a] animate-spin-reverse">
       <img
-        src="/perfil/perfil1.jpeg"
-        alt="Pedro"
-        className="w-full h-full object-cover"
+  src={`${import.meta.env.BASE_URL}perfil/perfil1.jpeg`}
+  alt="Pedro Henrique Domingos"
+  className="w-full h-full object-cover rounded-full"
       />
     </div>
 
