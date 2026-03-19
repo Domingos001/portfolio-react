@@ -64,7 +64,8 @@ export default function Contato() {
 
         <div className="bg-[#1e293b] border border-borderCustom p-8 rounded-2xl shadow-xl">
           <p className="text-textMedium text-center mb-8">
-            Estou buscando minha primeira oportunidade na área de tecnologia.
+            Estou buscando minha primeira oportunidade na área de tecnologia.<br></br>
+            Caso tenha interesse entre em contato!
           </p>
 
           <form onSubmit={onSubmit} className="space-y-6">
