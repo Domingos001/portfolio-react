@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CORES BASE  */
+:root {
+  --bg-primary: #0f172a;
+  --text-light: #e2e8f0;
+}
+
+/* RESET */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-light);
+  font-family: 'Inter', sans-serif;
+}
+
+/*  ANIMAÇÃO BORDA GIRANDO*/
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 4s linear infinite;
+}
+
+/*  FLOAT DO FUNDO  */
+@keyframes float {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(40px, -40px); }
+  100% { transform: translate(0, 0); }
+}
+
+.animate-float {
+  animation: float 12s ease-in-out infinite;
+}
+
+/* GIRO NORMAL */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 2s linear infinite;
+}
+
+/* GIRO CONTRÁRIO */
+@keyframes spinReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spin-reverse {
+  animation: spinReverse 3s linear infinite;
+}
