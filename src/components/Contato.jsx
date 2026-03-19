@@ -24,7 +24,7 @@ export default function Contato() {
       const data = await response.json();
 
       if (data.success) {
-        setResult("Mensagem enviada com sucesso! 🚀");
+        setResult("Mensagem enviada com sucesso! ");
         event.target.reset(); // Limpa o formulário
       } else {
         console.log("Erro", data);

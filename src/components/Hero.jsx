@@ -4,7 +4,7 @@ export default function Hero() {
   const texts = [
     "Desenvolvedor em formação",
     "Engenheiro de  Software",
-    "Analise e  Desenvolvimento"
+    "Análise e Desenvolvimento"
   ]
 
   const [textIndex, setTextIndex] = useState(0)
