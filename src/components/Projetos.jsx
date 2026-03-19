@@ -36,9 +36,9 @@ export default function Projetos() {
               href="https://project-axii.github.io/Project-axii-site/"
               target="_blank"
               className="bg-purpleAccent px-4 py-2 rounded 
-                         shadow-[0_0_20px_rgba(138,43,226,0.6)]
-                         hover:shadow-[0_0_35px_rgba(138,43,226,1)]
-                         transition"
+                        shadow-[0_0_20px_rgba(138,43,226,0.6)]
+                        hover:shadow-[0_0_35px_rgba(138,43,226,1)]
+                        transition"
             >
               Ver Projeto
             </a>
@@ -63,11 +63,11 @@ export default function Projetos() {
               href="https://github.com/Domingos001/Jogo-Uninter"
               target="_blank"
               className="bg-blueAccent px-4 py-2 rounded 
-                         shadow-[0_0_20px_rgba(70,130,180,0.6)]
-                         hover:shadow-[0_0_35px_rgba(70,130,180,1)]
-                         transition"
+                        shadow-[0_0_20px_rgba(70,130,180,0.6)]
+                        hover:shadow-[0_0_35px_rgba(70,130,180,1)]
+                        transition"
             >
-              GitHub
+              Ver Projeto
             </a>
 
           </div>
